@@ -18,7 +18,7 @@ function emni(n)
 app.get("/", (req, res) => {
     const n=req.query.n;
     const result=emni(n);
-    res.send(result+" is emni");
+    res.send(result+" is emni of the function by pa pa paglu");
 });
 
 
